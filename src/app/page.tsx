@@ -1,101 +1,162 @@
-import Image from "next/image";
-
-export default function Home() {
+function page() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <div>
+          <h1>Speakers</h1>
+<ul>
+  <li>
+      <h2>A. Velumani</h2>
+      <p><strong>Title:</strong> Founder</p>
+      <p><strong>Organization:</strong> Thyrocare</p>
+  </li>
+  <li>
+      <h2>Abhishek Singh, IAS</h2>
+      <p><strong>Title:</strong> Additional Secretary</p>
+      <p><strong>Organization:</strong> MEITY</p>
+  </li>
+  <li>
+      <h2>Ananth Narayanan</h2>
+      <p><strong>Title:</strong> Co-founder and CEO</p>
+      <p><strong>Organization:</strong> Mensa Brands</p>
+  </li>
+  <li>
+      <h2>Andre Agassi</h2>
+      <p><strong>Title:</strong> Legendary Tennis Champion and Philanthropist</p>
+      <p><strong>Organization:</strong> N/A</p>
+  </li>
+  <li>
+      <h2>Asha Jadeja</h2>
+      <p><strong>Title:</strong> President</p>
+      <p><strong>Organization:</strong> Motwani Jadeja Family Foundation</p>
+  </li>
+  <li>
+      <h2>Ashish Chauhan</h2>
+      <p><strong>Title:</strong> MD and CEO</p>
+      <p><strong>Organization:</strong> National Stock Exchange of India</p>
+  </li>
+  <li>
+      <h2>BV Naidu</h2>
+      <p><strong>Title:</strong> Chairman</p>
+      <p><strong>Organization:</strong> Karnataka Digital Economy Mission (KDEM)</p>
+  </li>
+  <li>
+      <h2>Dr. Ekroop Caur, IAS</h2>
+      <p><strong>Title:</strong> Secretary to Government</p>
+      <p><strong>Organization:</strong> Dept. of Electronics, Information Technology, Biotechnology and Science & Technology, Govt. of Karnataka</p>
+  </li>
+  <li>
+      <h2>Dr. Sanjay Tyagi</h2>
+      <p><strong>Title:</strong> Director</p>
+      <p><strong>Organization:</strong> STPI Bangalore</p>
+  </li>
+  <li>
+      <h2>Dr. Selvakumar, IAS</h2>
+      <p><strong>Title:</strong> Principal Secretary</p>
+      <p><strong>Organization:</strong> Commerce and Industry Department, Karnataka government</p>
+  </li>
+  <li>
+      <h2>Dr. Xinhong Lim</h2>
+      <p><strong>Title:</strong> MD</p>
+      <p><strong>Organization:</strong> Gelephu Mindfulness City</p>
+  </li>
+  <li>
+      <h2>Ganesh Natarajan</h2>
+      <p><strong>Title:</strong> Executive Chairman and Founder</p>
+      <p><strong>Organization:</strong> 5F World</p>
+  </li>
+  <li>
+      <h2>Ja-NaE Duane</h2>
+      <p><strong>Title:</strong> Author</p>
+      <p><strong>Organization:</strong> N/A</p>
+  </li>
+  <li>
+      <h2>Jeff Hoffman</h2>
+      <p><strong>Title:</strong> Chairman of the Board</p>
+      <p><strong>Organization:</strong> Global Entrepreneurship Network</p>
+  </li>
+  <li>
+      <h2>K. Rajaraman</h2>
+      <p><strong>Title:</strong> Chairman</p>
+      <p><strong>Organization:</strong> International Financial Services Centres Authority (IFSCA)</p>
+  </li>
+  <li>
+      <h2>Kevin Parikh</h2>
+      <p><strong>Title:</strong> Chairman and CEO</p>
+      <p><strong>Organization:</strong> Avasant</p>
+  </li>
+  <li>
+      <h2>Kris Gopalakrishnan</h2>
+      <p><strong>Title:</strong> Chairman Axilor Ventures, Co-founder Infosys, President ISF</p>
+      <p><strong>Organization:</strong> N/A</p>
+  </li>
+  <li>
+      <h2>Mike Kayamori</h2>
+      <p><strong>Title:</strong> CEO</p>
+      <p><strong>Organization:</strong> ORO Bank</p>
+  </li>
+  <li>
+      <h2>Mohandas Pai</h2>
+      <p><strong>Title:</strong> Chairman</p>
+      <p><strong>Organization:</strong> Manipal Global Education & Chairman at Aarin Capital</p>
+  </li>
+  <li>
+      <h2>Naiyya Saggi</h2>
+      <p><strong>Title:</strong> Group Co-founder</p>
+      <p><strong>Organization:</strong> The Good Glamm Group</p>
+  </li>
+  <li>
+      <h2>Peter Hughes</h2>
+      <p><strong>Title:</strong> Founder and CEO</p>
+      <p><strong>Organization:</strong> Apex Group</p>
+  </li>
+  <li>
+      <h2>Prashanth Prakash</h2>
+      <p><strong>Title:</strong> Founding Partner</p>
+      <p><strong>Organization:</strong> Accel Partners</p>
+  </li>
+  <li>
+      <h2>Priyank Kharge</h2>
+      <p><strong>Title:</strong> Honble Minister for Information Technology & Biotechnology and Rural Development & Panchayat Raj Govt. of Karnataka</p>
+      <p><strong>Organization:</strong> N/A</p>
+  </li>
+  <li>
+      <h2>Radhika Gupta</h2>
+      <p><strong>Title:</strong> MD & CEO</p>
+      <p><strong>Organization:</strong> Edelweiss Mutual Fund</p>
+  </li>
+  <li>
+      <h2>Ravi Venkatesan</h2>
+      <p><strong>Title:</strong> Chairman</p>
+      <p><strong>Organization:</strong> Global Energy Alliance for People and Planet</p>
+  </li>
+  <li>
+      <h2>S Krishnan, IAS</h2>
+      <p><strong>Title:</strong> Secretary</p>
+      <p><strong>Organization:</strong> MeitY, Govt. of India</p>
+  </li>
+  <li>
+      <h2>Sanjeev Gupta</h2>
+      <p><strong>Title:</strong> CEO</p>
+      <p><strong>Organization:</strong> Karnataka Digital Economy Mission (KDEM)</p>
+  </li>
+  <li>
+      <h2>Sanjeev Sanyal</h2>
+      <p><strong>Title:</strong> Member of the Economic Advisory Council to the Prime Minister of India</p>
+      <p><strong>Organization:</strong> N/A</p>
+  </li>
+  <li>
+      <h2>Sudhir Sethi</h2>
+      <p><strong>Title:</strong> Founder and Chairman</p>
+      <p><strong>Organization:</strong> Chiratae Ventures</p>
+  </li>
+  <li>
+      <h2>Vani Kola</h2>
+      <p><strong>Title:</strong> Founder &amp; Director</p>
+      <p><strong>Organization:</strong> Kalaari Capital</p>
+  </li>
+</ul> 
+        
+      </div>
   );
 }
+
+export default page;

@@ -9,64 +9,118 @@
                 {
                     "name": "Sheraton Brigade Gateway Hotel",
                     "travel_time": {
-                        "to_BIEC": "11.6 km | 25 min",
-                        "to_Airport": "31.8 km | 45 min"
+                        "to_BIEC": {
+                            "distance": "11.6 km",
+                            "time": "25 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "31.8 km",
+                            "time": "45 mins"
+                        }
                     }
                 },
                 {
                     "name": "Fairfield Rajajinagar",
                     "travel_time": {
-                        "to_BIEC": "15.4 km | 44 mins",
-                        "to_Airport": "34.6 km | 54 mins"
+                        "to_BIEC": {
+                            "distance": "15.4 km",
+                            "time": "44 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "34.6 km",
+                            "time": "54 mins"
+                        }
                     }
                 },
                 {
                     "name": "Renaissance Bengaluru",
                     "travel_time": {
-                        "to_BIEC": "17.5 km | 47 mins",
-                        "to_Airport": "32 kms | 47 mins"
+                        "to_BIEC": {
+                            "distance": "17.5 km",
+                            "time": "47 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "32 km",
+                            "time": "47 mins"
+                        }
                     }
                 },
                 {
                     "name": "Courtyard by Marriott Hebbal",
                     "travel_time": {
-                        "to_BIEC": "18.6 kms | 49 mins",
-                        "to_Airport": "27.5 kms | 36 mins"
+                        "to_BIEC": {
+                            "distance": "18.6 km",
+                            "time": "49 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "27.5 km",
+                            "time": "36 mins"
+                        }
                     }
                 },
                 {
                     "name": "Moxy Bengaluru Airport Prestige Tech Cloud",
                     "travel_time": {
-                        "to_BIEC": "34 km | 59 mins",
-                        "to_Airport": "7.3 kms | 11 mins"
+                        "to_BIEC": {
+                            "distance": "34 km",
+                            "time": "59 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "7.3 km",
+                            "time": "11 mins"
+                        }
                     }
                 },
                 {
                     "name": "Taj Yeshwantpur",
                     "travel_time": {
-                        "to_BIEC": "11.6 km | 25 min",
-                        "to_Airport": "31.8 km | 45 min"
+                        "to_BIEC": {
+                            "distance": "11.6 km",
+                            "time": "25 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "31.8 km",
+                            "time": "45 mins"
+                        }
                     }
                 },
                 {
                     "name": "Holiday Inn Bengaluru Racecourse",
                     "travel_time": {
-                        "to_BIEC": "16.3 km | 48 min",
-                        "to_Airport": "32.5 km | 58 min"
+                        "to_BIEC": {
+                            "distance": "16.3 km",
+                            "time": "48 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "32.5 km",
+                            "time": "58 mins"
+                        }
                     }
                 },
                 {
                     "name": "Royal Orchid Central Manipal Centre, MG Road",
                     "travel_time": {
-                        "to_BIEC": "20.8 km | 1 hr",
-                        "to_Airport": "33 km | 1 hr"
+                        "to_BIEC": {
+                            "distance": "20.8 km",
+                            "time": "1 hr"
+                        },
+                        "to_Airport": {
+                            "distance": "33 km",
+                            "time": "1 hr"
+                        }
                     }
                 },
                 {
                     "name": "Royal Orchid Resort & Convention Centre, Yelahanka",
                     "travel_time": {
-                        "to_BIEC": "20.2 km | 50 min",
-                        "to_Airport": "22 km | 30 min"
+                        "to_BIEC": {
+                            "distance": "20.2 km",
+                            "time": "50 mins"
+                        },
+                        "to_Airport": {
+                            "distance": "22 km",
+                            "time": "30 mins"
+                        }
                     }
                 }
             ],
@@ -74,61 +128,91 @@
                 {
                     "name": "Radisson Blu Plaza Hotel, Mysore",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "14.2 km | 30 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "14.2 km",
+                            "time": "30 mins"
+                        }
                     }
                 },
                 {
                     "name": "Hotel Southern Star, Mysore",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "10.7 km | 22 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "10.7 km",
+                            "time": "22 mins"
+                        }
                     }
                 },
                 {
                     "name": "Hotel Le Ruchi The Prince",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "7.6 km | 16 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "7.6 km",
+                            "time": "16 mins"
+                        }
                     }
                 },
                 {
                     "name": "Silent Shores Resort & Spa",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "3.6 km | 10 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "3.6 km",
+                            "time": "10 mins"
+                        }
                     }
                 },
                 {
                     "name": "Royal Orchid Metropole Hotel",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "10.7 km | 22 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "10.7 km",
+                            "time": "22 mins"
+                        }
                     }
                 },
                 {
                     "name": "Grand Mercure, Mysore",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "9.7 km | 20 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "9.7 km",
+                            "time": "20 mins"
+                        }
                     }
                 },
                 {
                     "name": "Mysore Country Retreat",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "1 km | 15 min walk"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "1 km",
+                            "time": "15 mins walk"
+                        }
                     }
                 },
                 {
                     "name": "JP Palace",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "13 km | 30 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "13 km",
+                            "time": "30 mins"
+                        }
                     }
                 },
                 {
                     "name": "Regenta Central Herald",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "8.5 km | 19 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "8.5 km",
+                            "time": "19 mins"
+                        }
                     }
                 },
                 {
                     "name": "Regenta Central Javaji",
                     "travel_time": {
-                        "to_Infosys_Mysore_Campus": "10 km | 19 min"
+                        "to_Infosys_Mysore_Campus": {
+                            "distance": "10 km",
+                            "time": "19 mins"
+                        }
                     }
                 }
             ]

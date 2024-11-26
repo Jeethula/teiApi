@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 import speaker from "../../../Jsons/speakers.json";
 
-const sepakers = speaker;
+const speakers = speaker;
 
 export function GET(){
-    return NextResponse.json(sepakers)
+    const speakersString = JSON.stringify(speakers, null, 2);
+    return NextResponse.json(speakersString)
 }
